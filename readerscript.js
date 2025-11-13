@@ -45,9 +45,20 @@ const chapters = {
     { name: "The Lovers (VI)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/lovers.jpg"},
     { name: "The Chariot (VII)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/chariot.jpg"},
   ] , nextChapter: 7 , prevChapter: 5 },   
-  7: { title: "Coming Soon", file: "chap7.txt" , tarot: [  
-    { name: "Coming Soon", interpretation: "'The time is not yet ripe'\t--SA Oranyth",frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/default-back.jpg" }, 
-  ] , prevChapter: 6 },
+  7: { title:"Strength (VIII) - The Resilient of Guilt", file: "chap7.txt" , tarot: [  
+    { name: "The Tower (XVI)", interpretation: "",frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/tower.jpg" },
+    { name: "The Hanged Man (XII)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/hangedman.jpg"},
+    { name: "The Moon (XVIII)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/moon.jpg"}, 
+    { name: "The Hermit (IX)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/hermit.jpg"},
+    { name: "The Empress (III)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/empress.jpg"},
+    { name: "Justice (XI)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/justice.jpg"},
+    { name: "The Lovers (VI)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/lovers.jpg"},
+    { name: "The Chariot (VII)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/chariot.jpg"},
+    { name: "Strength (VIII)", interpretation: "" ,frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/strength.jpg"},
+  ] , nextChapter: 8 , prevChapter: 6 },
+  8: { title: "Coming Soon", file: "chap8.txt" , tarot: [
+    { name: "Coming Soon", interpretation: "",frontImg: "assets/tarot/cover/scorpio.jpg", backImg: "assets/tarot/major/default-back.jpg" },
+  ] , prevChapter: 7 },
 };
 
 // --- DOM Elements ---

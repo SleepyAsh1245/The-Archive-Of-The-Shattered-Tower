@@ -73,16 +73,24 @@ body {
 
 .book {
   border: 1px solid var(--accent);
-  padding: 20px;
-  width: 180px;
+  width: 250px;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s, background 0.3s;
+}
+.h3 {
+  margin: 100px 0;
 }
 
 .book:hover {
   transform: scale(1.05);
   background: rgba(167,127,255,0.1);
+}
+.book-cover {
+  width: 100%;
+  border-radius: 10px;
+  height:100%; 
+  object-fit:cover;
 }
 
 /* Footer */
