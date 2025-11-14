@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>The Tower — Interactive Chapters</title>
+<link rel="stylesheet" href="readerstyle.css">
+</head>
+<body> 
+
+  <!-- Return Home Button -->
+  <button id="returnHome" class="backbtn">Return</button>
+
+  <!-- Voice & Skip Buttons -->
+  <button id="voiceBtn">🔊 Play Voice</button>
+  <button id="skipBtn">Skip Animation</button>
+
+  <!-- Theme FAB -->
+  <div class="theme-fab" id="themeFab">
+    <button class="fab-main">🎨</button>
+    <div class="fab-options">
+      <button class="theme-btn" data-theme="light"></button>
+      <button class="theme-btn" data-theme="bubblegum"></button>
+      <button class="theme-btn" data-theme="crimson"></button>
+      <button class="theme-btn" data-theme="midnight"></button>
+      <button class="theme-btn" data-theme="darkpurple"></button>
+      <button class="theme-btn" data-theme="forest"></button>
+      
+
+    </div>
+  </div>
+
+
+  <!-- Main Container -->
+  <div class="container">
+    <header>
+      <div class="logo"><center>CH. I</center></div>
+      <div>
+        <h1>The Archive of the Shattered Tower</h1>
+        <p class="lead">By: SA Oranyth</p>
+      </div>
+    </header>
+
+    <main class="panel">
+      <div id="story" class="text"></div>
+      <div id="tarotDisplay" class="hidden"></div>
+      <div id="choices" class="choices"></div>
+      <div id="chapterEnd" class="hidden">
+        <hr>
+        <div class="center">
+          <button class="big-btn" id="replayBtn">Replay Chapter</button>
+          <button class="big-btn small" id="cardsBtn">Inspect Tarot Cards</button>
+          <button class="big-btn small" id="placeholderBtn">Explore Vespera (Coming Soon)</button>
+        </div>
+        <p class="muted"><center>Note: Subsequent chapters are under construction.</center></p>
+        <p class="muted"><center>Chapter Selection is soon to be available</center></p>
+        <p class="muted"><center>PS: I will never gonna give you up nor never gonna let you down</center></p>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+     All rights reserved © 2025 SA Oranyth
+  </footer>
+
+<script src="readerscript.js"></script>
+</body>
+</html>
+

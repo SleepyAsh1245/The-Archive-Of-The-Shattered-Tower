@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming soon</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+      cursor: pointer; /* shows that you can click */
+    }
+
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    .hint {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <video id="bg-video" autoplay loop muted playsinline>
+    <source src="assets/book2.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <div class="hint">🔊 Click anywhere to enable sound</div>
+
+  <script>
+    const video = document.getElementById('bg-video');
+    const hint = document.querySelector('.hint');
+
+    // Wait for first click to unmute
+    document.addEventListener('click', () => {
+      video.muted = false;
+      video.play();
+      hint.style.display = 'none';
+    }, { once: true });
+  </script>
+
+</body>
+</html>

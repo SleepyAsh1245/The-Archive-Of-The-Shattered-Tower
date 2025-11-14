@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter Selection</title>
+  <link rel="stylesheet" href="archive.css">
+</head>
+<body>
+
+  <!-- Go back link -->
+  <a href="../home.html" class="go-back">← Back to Library</a>
+
+  <!-- Top container: book image + synopsis -->
+  <div class="book-container">
+    <img src="../assets/THE ARCHIVE OF THE SHATTERED TOWER.jpg" alt="The Archive of the Shattered Tower">
+    <div class="synopsis">
+      <h2>The Archive of The Shattered Tower</h2>
+      <h4>By: SA Oranyth</h4>
+      <p>
+        I woke with no memory, clutching three Tarot cards that hint at a forgotten past. The city of Vespera hides shadows, secrets, and dangers at every turn. Every choice could reveal the truth—or make the Tower collapse around you. Will you survive and uncover who you really are?
+      </p>
+      <button id="start-reading" class="start-reading-btn"></button>
+    </div>
+  </div>
+
+  <!-- Chapter list container -->
+  <div class="chapter-list" id="chapter-list">
+    <!-- Chapters will be loaded via JS -->
+  </div>
+  <div class="fab">
+  <button class="fab-main">🎨</button>
+  <div class="fab-options">
+    <button class="theme-btn" data-theme="forest"></button>
+    <button class="theme-btn" data-theme="darkpurple"></button>
+    <button class="theme-btn" data-theme="midnight"></button>
+    <button class="theme-btn" data-theme="crimson"></button>
+    <button class="theme-btn" data-theme="bubblegum"></button>
+    <button class="theme-btn" data-theme="light"></button>
+  </div>
+</div>
+
+
+  <script src="archive.js"></script>
+</body>
+</html>
